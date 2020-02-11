@@ -29,6 +29,7 @@ body {
 	-webkit-overflow-scrolling: touch;
 }
 h1{
+
 	font-size: 26px;
 	font-weight: bold;
 }
@@ -39,11 +40,15 @@ a{
 }
 
 a:hover, a:focus {
-	color: #000000;
+	color:black;
 	text-decoration: none;	
+	border-bottom: 1px solid white;
 	outline: 0;
 }
-
+.special:hover{
+	color: white;
+	 transition: 1s linear;
+}
 .navbar-brand {
 	font-size: 24px;
 	padding-left: 10%
@@ -55,6 +60,7 @@ width: 80%;
 right: -10%;
 
 font-size: 15px;
+font-weight: normal
 }
 
 li {
@@ -439,7 +445,7 @@ label, span {
   font-size: 14px;
 
 }
-input[type="text"], input[type="email"] {
+input[type="text"] {
 	font-size: 15px;
 	font-family: "Noto Sans";
   width: 100%;
@@ -634,15 +640,52 @@ overflow: hidden !important;
 	margin-top: -15px;
 	font-style: normal;
 	font-weight: 800;
+
 }
 .miss1{
 	font-size: 15px;
 	font-style: normal;
 	font-weight: normal;
 	width: 40%;
-		position:relative;
-	display: inline-block;
+	position:relative;
 	margin-top: -15px;
+	    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.miss2{
+	display: inline;
+	width: 600px;
+	height: 100px;
+}
+.miss3{
+	margin-left: 20px;
+	text-align: center;
+	position: relative;
+	  padding: 7px 50px 9px 50px;
+	  margin-top: 10px;
+	    border: 2px solid #fff;
+	    background: #57DBAC;
+	    display: inline-block;
+	font-size: 19px;
+	font-style: normal;
+	font-family: "Noto Sans";
+	color:white;
+}
+.email{
+		font-size: 15px;
+	font-family: "Noto Sans";
+  width: 30%;
+  cursor: pointer;
+  padding: 13px 15px;
+  margin-top: 30px;
+  border: 0px;
+  background: #fff;
+  color: #7b7b7b;
+  -webkit-appearance: none; /*убираем галочку в webkit-браузерах*/
+  -moz-appearance: none; /*убираем галочку в Mozilla Firefox*/
+  text-overflow: ellipsis;
 }
 ------------------------------------------
 
