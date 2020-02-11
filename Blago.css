@@ -616,6 +616,7 @@ overflow: hidden !important;
 	margin-left: 5%;
 }
 .seven{
+	color: white;
 	position: absolute;
 	top: calc(100% + 385px + 780px + 691px + 799px + 900px);
 	height: 400px;
@@ -668,10 +669,30 @@ overflow: hidden !important;
 	    border: 2px solid #fff;
 	    background: #57DBAC;
 	    display: inline-block;
+	    font-weight: 800;
+	font-size: 19px;
+	font-style: bold;
+	font-family: "Noto Sans";
+	color:white;
+		 transition: 0.3s linear;
+
+}
+.miss3:hover{
+	font-weight: 800;
+	margin-left: 20px;
+	text-align: center;
+	position: relative;
+	  padding: 7px 50px 9px 50px;
+	  margin-top: 10px;
+	    border: 2px solid #fff;
+	    background: #57DBAC;
+	    display: inline-block;
 	font-size: 19px;
 	font-style: normal;
 	font-family: "Noto Sans";
 	color:white;
+	background-color: white;
+	color: #1A224D;
 }
 .email{
 		font-size: 15px;
