@@ -713,7 +713,7 @@ overflow: hidden !important;
 	position: absolute;
 	top: calc(100% + 385px + 780px + 691px + 799px + 900px + 400px);
 	width: 100%;
-	height: 400px;
+	height: 300px;
 	background-color: #57DBAC;
 }
 
@@ -722,7 +722,7 @@ overflow: hidden !important;
 	display:inline-block;
 
 	margin-top: 25px;
-	height: 250px;
+	height: 200px;
 }
 
 .eight11{
@@ -813,6 +813,19 @@ text-align: left;
 	text-align: center;
 	display: inline-block;
 	margin-right: 10px;
+}
+.nine{
+	position: absolute;
+	top: calc(100% + 385px + 780px + 691px + 799px + 900px + 400px + 300px);
+	width: 100%;
+	height: 35px;
+	background-color: #39C794;
+	text-align: center;
+	font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+padding-top: 7px;
 }
 ------------------------------------------
 
