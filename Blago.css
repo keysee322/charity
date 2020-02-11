@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+html{
+
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+ background-color: rgba(0,0,0,0);
+
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}	
+body {
+
+	margin: 0;
+	font-family: "Noto Sans";
+	font-weight: bold;
+	font-style: normal;
+	font-size: 24px;
+	color: #EEEEEE;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+h1{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+a{
+	color: #EEEEEE;
+		text-decoration: none;	
+}
+
+a:hover, a:focus {
+	color: #000000;
+	text-decoration: none;	
+	outline: 0;
+}
+
+.navbar-brand {
+	font-size: 24px;
+	padding-left: 10%
+}
+.navbar-right {
+margin-top: -20px;
+	position: relative;
+width: 80%;
+right: -10%;
+
+font-size: 15px;
+}
+
+li {
+	display: inline;
+	padding-right: 5%;
+}
+
+.navbar-inverse {
+	background: rgba(0,0,0,0);
+	border-color: #FFF;
+}
+
+
+.phone {
+	float: right;
+	margin-top: -70px;
+	color: #7b7b7b;
+}
+
+.fake {
+	background: rgba(0,0,0,0.2);
+	height: 100%;
+}
+
+.first {
+	background-image: url(1/fon1.png); 
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+	padding-top: 2%
+}
+
+.title {
+	text-align: center;
+	margin-top: 13%;
+	font-size: 18px;
+	font-weight: normal;
+}
+.title2 {
+	text-align: center;
+		margin: auto;
+	margin-top: 1%;
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 148.18%;
+	width: 474px;
+	height: 142px;
+}
+.donates {
+	position: relative;
+width: 80%;
+right: -10%;
+padding-top: 2%;
+font-size: 15px;
+}
+.donate {
+width: 252px;
+height: 62px;
+ padding: 15px 60px;
+ background: #57DBAC;
+ transition: 0.2s linear;
+}
+
+a.donate:hover {
+width: 252px;
+height: 62px;
+ padding: 15px 60px;
+ background: #FFFFFF	;
+}
+
+.learn {
+	border: 2px solid #333;
+	border-color: white;
+width: 252px;
+height: 62px;
+ padding: 13px 58px;
+ transition: 0.2s linear;
+}
+.learn:hover {
+	border: 2px solid #333;
+	border-color: white;
+width: 252px;
+height: 62px;
+ padding: 13px 58px;
+ transition: 0.2s linear;
+ background: white;
+}
+
+
+.second {
+	text-align: center;
+
+    width: 100%; 
+    height: 385px;
+    background: #FFF; 
+    
+    position: absolute; 
+    top: 100%; 
+    color: #1A224D;
+}
+
+
+.container{overflow:hidden;
+	width: 100%;
+
+}
+.box{white-space:nowrap}
+.box div{
+	width:20%;
+	display:inline-block;
+	text-align: center;
+	margin-top: 25px;
+	height: 250px;
+
+}
+
+.center{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.small {
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.third {
+
+	color: #1A224D;
+	background-color: #F7FAFE;
+	width: 100%;
+	text-align: left;
+    position: absolute;
+    font-size: 15px;
+    font-weight: normal;
+   top: calc(100% + 385px);
+   height: 780px;
+}
+.palm {
+	background-image: url("1/palm.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 30%;
+	float: right;
+	margin-right:  12%;
+}
+.text-for-palm{
+	width: 30%;
+	margin-left: 15%;
+	margin-top: 15%;
+}
+
+.four {
+	position: absolute;
+	top: calc(100% + 385px + 780px );
+	height: 691px;
+	width: 100%;
+	color: #1A224C;
+	display: inline;
+	text-align: center;
+	 	overflow: hidden;
+}
+
+ [data-objectId].active{color:red}
+
+ .kek {
+ 	font-size: 15px;
+ }
+ .lol {
+ 	color: #1A224C;
+ }
+ .items{
+ 	width: 470px;
+ 	padding-right: 20px;
+ }
+ .right-side{
+ 	width: 300px;
+ 	height: 555px;
+ 	overflow: scroll;
+ 	margin-top: 4%
+
+ }
+
+ .four1{
+ 		width: 100%;
+ 		height: 600px;
+ 		display: inline;
+ 		text-align: center;
+
+ }
+
+ .five {
+ 		position: absolute;
+		top: calc(100% + 385px + 780px + 691px);
+		height: 799px;
+		width: 100%;
+
+		background-image: url(1/fon5.png); 
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		 	padding-top:0px;
+		 	display: inline;
+ }
+
+ .fake1{
+ 		position: absolute;
+ 		height: 100%;
+		width: 100%;
+		background: rgba(87, 219, 172, 0.92);
+ }
+
+ .asd{
+ 	width: 282px;
+ }
+ .left5{
+ 	float: left;
+ 	width: 30%;
+	margin-left: 15%;
+	margin-top: 13%;
+ }
+
+ .asd-text {
+ 	font-size: 15px;
+ 	font-weight: normal;
+ }
+
+ .group {
+width: 126px;
+height: 62px;
+ padding: 15px 30px;
+ background: #1A224D;
+ transition: 0.2s linear;
+}
+
+a.group:hover {
+width: 126px;
+height: 62px;
+ padding: 15px 30px;
+ background: #FFFFFF	;
+}
+
+.single {
+	border: 2px solid #333;
+	border-color: white;
+	width: 126px;
+height: 62px;
+ padding: 13px 30px;
+
+}
+.singleorgroup{
+	text-align: left;
+
+padding-top: 10%;
+font-size: 18px;
+padding-inline-start: 0px;
+}
+
+.right5{
+	float: right;
+	height: 90%;
+	width: 600px;
+	margin-top: 2%;
+	margin-right: 10%;
+	background: #FFF;
+}
+.insideup{
+	width: 88%;
+	height: 30%;
+	margin-left: 35px;
+	margin-top: 6%;
+}
+
+h2{
+	color: #1A224D;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+ #right-panel {
+ 		text-align: left;
+ 	position: relative;
+	height: 555px;
+	width: 23%;
+	display: inline-block;
+	margin-top: 4%;
+	overflow: scroll;
+	background: #F7FAFE;
+	padding-left: 0px;
+	margin-left: -10px;    
+	overflow-x: hidden;
+
+}
+
+#map{
+	position: relative;
+	    margin-left: auto;
+    margin-right: auto;
+	height: 555px;
+	width: 570px;
+	display: inline-block;
+	margin-top: 4%;
+
+}
+.buttons{
+	position: relative;
+	text-align: left;
+	width: 100%;
+	background: #F7FAFE;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 0px;
+	font-family: "Noto Sans";
+	  position: relative;
+	  border: 0px;
+	    outline: none;
+}
+.buttons:before,
+.buttons:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0%;
+  width: 90%;
+  height: 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.buttons:hover{
+	position: relative;
+	text-align: left;
+	width: 100%;
+	background: #E3E7EC;
+	padding-left: 20px;
+	margin-left: 0px;
+	font-family: "Noto Sans";
+	  position: relative;
+	  border: 0px;
+}
+
+.result{
+	padding-left: 20px;
+}
+h1.firstHeading {
+	text-align: left;
+}
+// ---------------------------------------------------------
+.from-wrap{
+	  width: 500px;
+  height: 20%;
+}
+form.a{
+
+  float: left;
+  width: 500px;
+  height: 20%;
+  padding: 0px;
+  color: #7b7b7b; 
+  display: inline;
+}
+
+form div {
+  margin-bottom: 55px;
+  position: absolute;
+}
+
+
+/********************** стилизация элементов формы **********************/
+label, span {
+  display: block;
+  font-size: 14px;
+
+}
+input[type="text"], input[type="email"] {
+	font-size: 15px;
+	font-family: "Noto Sans";
+  width: 100%;
+  cursor: pointer;
+  padding: 13px 15px;
+  margin-top: 10px;
+  border: 2px solid #57DBAC;
+  background: #fff;
+  color: #7b7b7b;
+  -webkit-appearance: none; /*убираем галочку в webkit-браузерах*/
+  -moz-appearance: none; /*убираем галочку в Mozilla Firefox*/
+  text-overflow: ellipsis;
+
+}
+
+option {
+	white-space: nowrap;
+	overflow: hidden;
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    text-overflow: ellipsis;
+}
+
+select {
+font-size: 15px;
+overflow: hidden !important;
+    font-family: "Noto Sans";
+    width: 100%;
+    cursor: pointer;
+    padding: 13px 15px;
+    margin-top: 10px;
+    border: 2px solid #57DBAC;
+    background: #fff;
+    color: #7b7b7b;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+}
+
+.select-arrow {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  width: 22px;
+  height: 40px;
+  padding-left: 7px; 
+  padding-bottom: 6px;
+  pointer-events: none; /*активизируем показ списка при нажатии на стрелку*/
+   border: 2px solid #57DBAC;
+   background-color: #F7FAFE;
+
+}
+
+
+/********************** добавляем форме адаптивность **********************/
+
+
+
+.qwe{
+	width: 13%;
+}
+.qwe1{
+	width: 11%;
+	margin-left: 15%;
+}
+.qwe2{
+	width: 11%;
+}
+.qwe3{
+	height: 300px;
+	width: 26%;
+}
+.qwe3{
+	height: 200px;
+	width: 26%;
+}
+
+.price {
+	font-size: 17px;
+	font-family: "Noto Sans";
+	float: left;
+	position: absolute;
+	margin-top: 90px;
+	height: 50px;
+	width: 100px;
+	color: #55DAAB;
+	background: rgba(0,0,0,0);
+	border: 2px solid #57DBAC;
+	-webkit-appearance: button;
+
+}
+
+.insidedown{
+	width: 88%;
+	height: 30%;
+	margin-left: 35px;
+	margin-top: 6%;
+}
+
+.personal{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+}
+.qwe4{
+	font-weight: normal;
+	color: #1A224D;
+
+	height: 50px;
+	width: 100%;
+	margin-left: 35px;
+	margin-top: 35px;
+}
+.qwe5{
+	font-weight: normal;
+	color: #1A224D;
+	display: inline-block;
+	height: 0px;
+	width: 100%;
+	margin-left: 35px;
+	margin-top: 35px;
+}
+
+.qwe6{
+	background: #57DBAC;
+	font-size: 15px;
+	padding: 18px;
+	color: white;
+	display: inline;
+}
+.oplata{
+	width: 10%;
+	text-align: center;
+	display: inline-block;
+	margin-left: 20px;
+
+}
+.qwe7{
+	margin-left: 25%;
+	width: 100%;
+	margin-top: -40px;
+}
+
+.six{
+	position: absolute;
+	top: calc(100% + 385px + 780px + 691px + 799px);
+		height: 900px;
+		float: left;
+		color: #1A224D;
+		width: 100%;
+}
+.team{
+
+	margin-left: 20%;
+	margin-top: 7%;
+	float: left;
+}
+.team-header{
+	font-weight: bold;
+}
+.team-text{
+	float: left;
+	font-weight: normal;
+	font-size: 15px;
+	width: 500px;
+	margin-top: 20%;
+	margin-left: 5%;
+}
+.seven{
+	position: absolute;
+	top: calc(100% + 385px + 780px + 691px + 799px + 900px);
+	height: 400px;
+	width: 100%;
+	text-align:center;
+	display: inline-block;
+}
+.seven1{
+	width: 60%;
+	height: 300px;
+	background: #57DBAC;
+	text-align:center;
+	position:relative;
+	display: inline-block;
+}
+.miss{
+	font-size: 18px;
+	font-weight: normal;
+}
+.update{
+	font-size: 48px;
+	margin-top: -15px;
+	font-style: normal;
+	font-weight: 800;
+}
+.miss1{
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal;
+	width: 40%;
+		position:relative;
+	display: inline-block;
+	margin-top: -15px;
+}
+------------------------------------------
+
