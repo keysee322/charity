@@ -51,7 +51,7 @@ a:hover, a:focus {
 }
 .navbar-brand {
 	font-size: 24px;
-	padding-left: 10%
+	margin-left: 10%
 }
 .navbar-right {
 margin-top: -20px;
@@ -130,7 +130,7 @@ width: 252px;
 height: 62px;
  padding: 15px 60px;
  background: #57DBAC;
- transition: 0.2s linear;
+ transition: 0.35s linear;
 }
 
 a.donate:hover {
@@ -146,7 +146,7 @@ height: 62px;
 width: 252px;
 height: 62px;
  padding: 13px 58px;
- transition: 0.2s linear;
+ transition: 0.35s linear;
 }
 .learn:hover {
 	border: 2px solid #333;
@@ -154,7 +154,7 @@ height: 62px;
 width: 252px;
 height: 62px;
  padding: 13px 58px;
- transition: 0.2s linear;
+ transition: 0.35s linear;
  background: white;
 }
 
@@ -303,7 +303,7 @@ width: 126px;
 height: 62px;
  padding: 15px 30px;
  background: #1A224D;
- transition: 0.2s linear;
+ transition: 0.35s linear;
 }
 
 a.group:hover {
@@ -603,6 +603,7 @@ overflow: hidden !important;
 	margin-left: 20%;
 	margin-top: 7%;
 	float: left;
+	width: 27%;
 }
 .team-header{
 	font-weight: bold;
@@ -674,7 +675,7 @@ overflow: hidden !important;
 	font-style: bold;
 	font-family: "Noto Sans";
 	color:white;
-		 transition: 0.3s linear;
+		 transition: 0.35s linear;
 
 }
 .miss3:hover{
@@ -766,6 +767,7 @@ font-size: 18px;
 text-align: left;
 }
 .eight13{
+	font-size: 100%;
 	left: 48%;
 	    display: inline;
     margin-left: auto;
@@ -778,6 +780,7 @@ text-align: left;
     top: 0%;
 }
 .eight14{
+	font-size: 100%;
 	left: 73%;
 	    display: inline;
 	    float: left
@@ -808,6 +811,7 @@ text-align: left;
 	font-weight: normal;
 }
 .oplata1{
+	font-size: 80%;
 	float:left;
 		width: 19%;
 	text-align: center;
@@ -823,7 +827,7 @@ text-align: left;
 	text-align: center;
 	font-style: normal;
 font-weight: 500;
-font-size: 18px;
+font-size: 80%;
 line-height: 25px;
 padding-top: 7px;
 }
