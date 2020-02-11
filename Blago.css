@@ -387,6 +387,10 @@ h2{
 	  position: relative;
 	  border: 0px;
 	    outline: none;
+	    font-style: normal;
+font-weight: 600;
+font-size: 70%;
+color: #1A224C;
 }
 .buttons:before,
 .buttons:after {
@@ -397,7 +401,10 @@ h2{
   width: 90%;
   height: 0px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-
+  font-style: normal;
+font-weight: 600;
+font-size: 80%;
+color: #1A224C;
 }
 
 .buttons:hover{
@@ -410,10 +417,18 @@ h2{
 	font-family: "Noto Sans";
 	  position: relative;
 	  border: 0px;
+	  font-style: normal;
+font-weight: 600;
+font-size: 22px;
+color: #1A224C;
 }
 
 .result{
 	padding-left: 20px;
+	font-family: Noto Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
 }
 h1.firstHeading {
 	text-align: left;
