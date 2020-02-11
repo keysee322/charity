@@ -708,5 +708,111 @@ overflow: hidden !important;
   -moz-appearance: none; /*убираем галочку в Mozilla Firefox*/
   text-overflow: ellipsis;
 }
+
+.eight{
+	position: absolute;
+	top: calc(100% + 385px + 780px + 691px + 799px + 900px + 400px);
+	width: 100%;
+	height: 400px;
+	background-color: #57DBAC;
+}
+
+.eight1 div{
+
+	display:inline-block;
+
+	margin-top: 25px;
+	height: 250px;
+}
+
+.eight11{
+	position: relative;
+	margin-top: -20px;
+	width: 180px;
+
+	    display: inline;
+    margin-left: auto;
+    margin-right: auto
+	width: 10%;
+	height: 300px;
+	background-color: #57DBAC;
+	padding: 15px 6%;
+}
+.eight111{
+	text-align: left;
+	width: 100%;
+	font-style: normal;
+font-weight: 500;
+font-size: 18px;
+}
+.eight12{position: absolute;
+    top: 0%;
+    	left: 25%;
+	    display: inline;
+    margin-left: auto;
+    margin-right: auto
+	width: 4%;
+	height: 300px;
+	background-color: #57DBAC;
+	padding: 15px 6%;
+}
+
+.eight1122{
+
+	display: block;
+	font-style: normal;
+font-weight: 500;
+font-size: 18px;
+text-align: left;
+}
+.eight13{
+	left: 48%;
+	    display: inline;
+    margin-left: auto;
+    margin-right: auto
+	width: 10%;
+	height: 300px;
+	padding: 15px 6%;
+	background-color: #57DBAC;
+	position: absolute;
+    top: 0%;
+}
+.eight14{
+	left: 73%;
+	    display: inline;
+	    float: left
+	width: 20%;
+	height: 300px;
+	background-color: #57DBAC;
+	padding: 15px 6%;
+	position: absolute;
+    top: 0%;
+}
+
+.box div{
+	width:20%;
+	display:inline-block;
+	text-align: center;
+	margin-top: 25px;
+	height: 250px;
+
+}
+
+.center{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.small {
+	font-size: 15px;
+	font-weight: normal;
+}
+.oplata1{
+	float:left;
+		width: 19%;
+	text-align: center;
+	display: inline-block;
+	margin-right: 10px;
+}
 ------------------------------------------
 
