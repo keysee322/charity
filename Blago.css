@@ -56,7 +56,6 @@ nav.stroke ul li a:hover:after {
 }
 
 section {
-  height: 100vh;
 }
 
 /* NAVIGATION */
@@ -101,7 +100,7 @@ a:visited {
 	color: white;
 }
 a:hover, a:focus {
-	color:red;
+	color: #1A224D;
 	text-decoration: none;	
 	outline: 0;
 }
