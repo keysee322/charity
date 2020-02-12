@@ -16,8 +16,11 @@ html{
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }	
-body {
-
+scroll-container{
+	      scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+body {  
 	margin: 0;
 	font-family: "Noto Sans";
 	font-weight: bold;
@@ -28,6 +31,62 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
 }
+ nav.stroke ul li a{
+  position: relative;
+}
+nav.stroke ul li a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: white;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 80%;
+}
+
+
+.center {
+  text-align: center;
+}
+
+section {
+  height: 100vh;
+}
+
+/* NAVIGATION */
+nav {
+  width: 80%;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #000;
+}
+
 h1{
 
 	font-size: 26px;
@@ -38,15 +97,16 @@ a{
 	color: #EEEEEE;
 		text-decoration: none;	
 }
-
+a:visited {
+	color: white;
+}
 a:hover, a:focus {
-	color:black;
+	color:red;
 	text-decoration: none;	
-	border-bottom: 1px solid white;
 	outline: 0;
 }
 .special:hover{
-	color: white;
+	color: #ddd;
 	 transition: 1s linear;
 }
 .navbar-brand {
@@ -54,7 +114,7 @@ a:hover, a:focus {
 	margin-left: 10%
 }
 .navbar-right {
-margin-top: -20px;
+margin-top: -38px;
 	position: relative;
 width: 80%;
 right: -10%;
@@ -70,7 +130,7 @@ li {
 
 .navbar-inverse {
 	background: rgba(0,0,0,0);
-	border-color: #FFF;
+
 }
 
 
@@ -846,5 +906,7 @@ font-size: 80%;
 line-height: 25px;
 padding-top: 7px;
 }
+
+
 ------------------------------------------
 
