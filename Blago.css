@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 html{
-
+ width: 100%;
 }
 ::-webkit-scrollbar {
     width: 12px;
@@ -21,6 +21,7 @@ scroll-container{
   overflow-y: scroll;
 }
 body {  
+	overflow-x: 
 	margin: 0;
 	font-family: "Noto Sans";
 	font-weight: bold;
@@ -74,7 +75,7 @@ nav ul li a {
   display: block;
   padding: 15px;
   text-decoration: none;
-  color: #fff;
+  color: #aaa;
   margin: 0 10px;
 }
 nav ul li a,
@@ -93,7 +94,7 @@ h1{
 }
 
 a{
-	color: #fff;
+	color: #EEEEEE;
 		text-decoration: none;	
 }
 a:visited {
@@ -105,7 +106,7 @@ a:hover, a:focus {
 	outline: 0;
 }
 .special:hover{
-	color: #fff;
+	color: #ddd;
 	 transition: 1s linear;
 }
 .navbar-brand {
@@ -630,7 +631,7 @@ overflow: hidden !important;
 	color: #1A224D;
 
 	height: 50px;
-	width: 100%;
+	width: 20%;
 	margin-left: 35px;
 	margin-top: 35px;
 }
@@ -638,7 +639,7 @@ overflow: hidden !important;
 	font-weight: normal;
 	color: #1A224D;
 	display: inline-block;
-	height: 0px;
+	height: 200px;
 	width: 100%;
 	margin-left: 35px;
 	margin-top: 35px;
@@ -660,7 +661,7 @@ overflow: hidden !important;
 }
 .qwe7{
 	margin-left: 25%;
-	width: 100%;
+	width: 80%;
 	margin-top: -40px;
 }
 
