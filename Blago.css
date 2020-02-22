@@ -21,7 +21,7 @@ scroll-container{
   overflow-y: scroll;
 }
 body {  
-	overflow-x: 
+	overflow-x: hidden;
 	margin: 0;
 	font-family: "Noto Sans";
 	font-weight: bold;
@@ -31,6 +31,7 @@ body {
 
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
+	z-index: 1;
 }
  nav.stroke ul li a{
   position: relative;
@@ -102,7 +103,7 @@ a:visited {
 	color: white;
 }
 a:hover, a:focus {
-	color: #1A224D;
+	color: #fff;
 	text-decoration: none;	
 	outline: 0;
 }
@@ -117,7 +118,7 @@ a:hover, a:focus {
 .navbar-right {
 margin-top: -38px;
 	position: relative;
-
+z-index: 0;
 left: -1%;
 font-size: 15px;
 font-weight: normal
@@ -147,7 +148,7 @@ li {
 
 .first {
 	background-image: url(1/fon1.png); 
-
+	position: absolute;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -159,10 +160,40 @@ li {
   min-height: 1000px;
 }
 
+.nav-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+label[for="nav-trigger"] {
+ position: fixed;
+ top: 15px;
+ left: 15px;
+ z-index: 2;
+}
+
+label[for="nav-trigger"] {
+ /* ... предыдущие стили находятся здесь ... */
+ width: 30px;
+ height: 30px;
+ cursor: pointer;
+ background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+ background-size: contain;
+}
+.nav-trigger:checked + label {
+ left: 215px;
+}
+ 
+.nav-trigger:checked ~ .site-wrap {
+ left: 200px;
+ box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
 .container {
 	padding-top: 2%
 }
-
+.container1 {
+	padding-top: 2%
+}
 .title {
 	text-align: center;
 	margin-top: 15%;
@@ -403,6 +434,7 @@ padding-inline-start: 0px;
 	height: 30%;
 	margin-left: 35px;
 	margin-top: 6%;
+	z-index: 3;
 }
 
 h2{

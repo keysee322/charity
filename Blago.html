@@ -218,7 +218,20 @@ var image = '1/map-marker.svg';
     	  document.getElementById("marker7").style.backgroundColor = '#E3E7EC';
         });
         // Perform a nearby search.
+        const anchors = document.querySelectorAll('a[href*="#"]')
 
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+    
+    const blockID = anchor.getAttribute('href').substr(1)
+    
+    document.getElementById(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+}
       }
 
     </script>
@@ -227,11 +240,11 @@ var image = '1/map-marker.svg';
   </style>
 
 </head>
-<body>
-  <scroll-container>
-	<section id="1"> </section><div class="first" ><div class="fake">
+<body>  <scroll-container> <section id="1"> </section>
+
+	<div class="first" ><div class="fake">
 <div class="navbar navbar-inverse navbar-fixed-top"> 
-	<div class="container">
+	<div class="container1">
 		<div class="navbar-header">
 			<div class="navbar-brand"> Сoconut for me <div>
 			
@@ -244,6 +257,8 @@ var image = '1/map-marker.svg';
 				<li><a class="special" href="#3">Пожертвования</a></li>
 				<li><a class="special" href="#4">Контакты</a></li>
 			</ul>
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger"></label>
     </nav>
 		</div>
 		<a class="phone" href="#"><i class="fas fa-phone-alt fa-2x"></i></a>
@@ -257,7 +272,7 @@ var image = '1/map-marker.svg';
 		<li ><a class="learn" href="#2">Learn more</a></li>
 	</ul>
 	</div>
-	</div>
+	</div></div></div>
 <div class="second">
 <div class="container">
   <div class="box">
@@ -269,7 +284,7 @@ var image = '1/map-marker.svg';
 
 </div>
 
-<div class="third">
+<div class="third"> <section id="5"></section>
 	<div class="palm"></div>
 
 	<div class="text-for-palm"><h1>Reason</h1>
@@ -437,11 +452,11 @@ var image = '1/map-marker.svg';
       </div>
        <div class="eight12"> Quick Links 
        <p class="eight112">
-        <a class="eight1122">Home</a>
-        <a class="eight1122">Reason</a>
-        <a class="eight1122">Donate</a>
-        <a class="eight1122">Our Team</a>
-        <a class="eight1122">Get Update</a>
+        <a class="eight1122" href="#1">Home</a>
+        <a class="eight1122" href="#5">Reason</a>
+        <a class="eight1122" href="#3">Donate</a>
+        <a class="eight1122" href="#2">Our Team</a>
+        <a class="eight1122" href="#4">Get Update</a>
        </p>
      </div>
         <div class="eight13"> Способы оплаты 
