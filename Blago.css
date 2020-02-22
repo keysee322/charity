@@ -27,7 +27,7 @@ body {
 	font-weight: bold;
 	font-style: normal;
 	font-size: 24px;
-	color: #EEEEEE;
+	color: #FFFFFF;
 
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
@@ -48,7 +48,7 @@ nav.stroke ul li a:after{
   height: 1px;
 }
 nav.stroke ul li a:hover:after {
-  width: 80%;
+  width: 100%;
 }
 
 
@@ -74,6 +74,7 @@ nav ul li {
 nav ul li a {
   display: block;
   padding-top: 15px;
+  padding-bottom: 10px;
   text-decoration: none;
   color: #fff;
   margin: 0 10px;
@@ -94,7 +95,7 @@ h1{
 }
 
 a{
-	color: #EEEEEE;
+	color: #ffffff;
 		text-decoration: none;	
 }
 a:visited {
@@ -936,12 +937,62 @@ padding-top: 7px;
 	overflow-x: hidden;
 
 }
-}
+.seven{
 
+	top: calc(100% + 385px + 780px + 691px + 799px + 770px);
+
+}
+.team {
+		width: 400px;
+		margin-top: 60px;
+	}
+	.team-text{
+	margin-top: 140px;
+	margin-left: 5%;
+}
+.eight{
+	top: calc(100% + 385px + 780px + 691px + 799px + 900px + 100px);
+
+}
+.nine{
+		top: calc(100% + 385px + 780px + 691px + 799px + 900px + 400px);
+}
+.third {
+
+	color: #1A224D;
+	background-color: #F7FAFE;
+	width: 100%;
+	text-align: left;
+    position: absolute;
+    font-size: 15px;
+    font-weight: normal;
+   top: calc(100% + 385px);
+   height: 680px;
+}
+.four {
+	top: calc(100% + 385px + 680px );
+
+}
+ .five {
+		top: calc(100% + 385px + 780px + 591px);
+ }
+.six{
+	top: calc(100% + 385px + 780px + 691px + 699px);
+	height: 700px;
+}
+.seven{
+
+	top: calc(100% + 385px + 780px + 691px + 799px + 600px);
+
+}
+}
 @media (max-width: 1280px){
 	.palm{
 		margin-right: 0%;
 		width: 40%;
+	}
+	.team {
+		width: 400px;
 	}
 	.right5{
 		margin-right: 0%;
@@ -971,6 +1022,53 @@ padding-top: 7px;
 	margin-left: -10px;    
 	overflow-x: hidden;
 
+}
+.seven{
+
+	top: calc(100% + 300px + 620px + 691px + 799px + 460px);
+	height: 360px;
+
+}
+.team {
+		width: 340px;
+		margin-top: 40px;
+	}
+.eight{
+	top: calc(100% + 300px + 620px + 691px + 799px + 800px + 20px);
+
+}
+.nine{
+		top: calc(100% + 300px + 620px + 691px + 799px + 900px + 220px);
+}
+.team-text{
+	margin-top: 80px;
+	margin-left: 5%;
+}
+ .five {
+ 		position: absolute;
+		top: calc(100% + 300px + 740px + 590px);
+		height: 680px;
+	
+ }
+ .six{
+	top: calc(100% + 300px + 620px + 691px + 699px);
+	height: 560px;
+}
+.second {
+
+    height: 300px;
+
+}
+
+.third {
+   top: calc(100% + 300px);
+}
+.four {
+	top: calc(100% + 300px + 680px );
+	height: 650px;
+}
+.container{
+	padding-top: 0%;
 }
 }
 ------------------------------------------
