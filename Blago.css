@@ -967,12 +967,7 @@ line-height: 25px;
 padding-top: 7px;
 }
 
-.butt_menu{
-	position: absolute;
-	display: none;
-	right: 4%;
-	top: 4%;
-}
+
 
 
 @media (max-width: 1450px){
@@ -1052,9 +1047,6 @@ padding-top: 7px;
 }
 }
 @media (max-width: 1280px){
-	.butt_menu{
-		display: block;
-	}
 	.palm{
 		margin-right: 0%;
 		width: 40%;
@@ -1138,9 +1130,7 @@ padding-top: 7px;
 .container{
 	padding-top: 0%;
 }
-.navbar-right{
-	height: 0; overflow: hidden;
-}
+
 
 }
 @media (max-height: 700px) and (max-width: 1280px){
