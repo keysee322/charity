@@ -20,7 +20,22 @@ scroll-container{
 	      scroll-behavior: smooth;
   overflow-y: scroll;
 }
+
+::selection {
+   background: transparent;
+}
+::-moz-selection {
+   background: transparent;
+}
+
 body {  
+	    -webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+
+    -ms-user-select: none;
 	overflow-x: hidden;
 	margin: 0;
 	font-family: "Noto Sans";
@@ -102,7 +117,12 @@ a{
 a:visited {
 	color: white;
 }
-a:hover, a:focus {
+a:hover {
+	color: #1A224D;
+	text-decoration: none;	
+	outline: 0;
+}
+a:focus {
 	color: #fff;
 	text-decoration: none;	
 	outline: 0;
@@ -147,6 +167,7 @@ li {
 }
 
 .first {
+	background-color: white;
 	background-image: url(1/fon1.png); 
 	position: absolute;
 	background-repeat: no-repeat;
@@ -157,6 +178,7 @@ li {
   left: 0;
   width: 100%;
   height: 100%;
+
   min-height: 1000px;
 }
 
@@ -195,8 +217,12 @@ label[for="nav-trigger"] {
 	padding-top: 2%
 }
 .title {
+	position: absolute;
+	display: block;
 	text-align: center;
-	margin-top: 15%;
+	left: 50%;
+	margin-left: -237px;
+	top: 32%;
 	font-size: 18px;
 	font-weight: normal;
 }
@@ -211,9 +237,11 @@ label[for="nav-trigger"] {
 	height: 142px;
 }
 .donates {
-	position: relative;
-width: 80%;
-right: -10%;
+	position: absolute;
+	top: calc(35% + 150px);
+width: 600px;
+left: 50%;
+margin-left: -330px;
 padding-top: 2%;
 font-size: 15px;
 }
@@ -939,7 +967,12 @@ line-height: 25px;
 padding-top: 7px;
 }
 
-
+.butt_menu{
+	position: absolute;
+	display: none;
+	right: 4%;
+	top: 4%;
+}
 
 
 @media (max-width: 1450px){
@@ -1019,6 +1052,9 @@ padding-top: 7px;
 }
 }
 @media (max-width: 1280px){
+	.butt_menu{
+		display: block;
+	}
 	.palm{
 		margin-right: 0%;
 		width: 40%;
@@ -1102,6 +1138,59 @@ padding-top: 7px;
 .container{
 	padding-top: 0%;
 }
+.navbar-right{
+	height: 0; overflow: hidden;
+}
+
+}
+@media (max-height: 700px) and (max-width: 1280px){
+	.second{top: 700px;}
+	.third{
+		top: calc(700px + 300px);
+	}
+	.four{
+		top: calc(700px + 300px + 680px );
+	}
+	.five{
+		top: calc(700px + 300px + 740px + 590px);
+	}
+	 .six{
+	top: calc(700px + 300px + 620px + 691px + 699px);
+	}
+	.seven{
+	top: calc(700px + 300px + 620px + 691px + 799px + 460px);
+	}
+	.eight{
+	top: calc(700px + 300px + 620px + 691px + 799px + 800px + 20px);
+	}
+	.nine{
+		top: calc(700px + 300px + 620px + 691px + 799px + 900px + 220px);
+	}
+}
+
+@media (max-height: 1000px) and (min-width: 1280px){
+	.second{top: 1000px;}
+	.third{
+		top: calc(1000px + 385px);
+	}
+	.four{
+		top: calc(1000px + 385px + 780px);
+	}
+	.five{
+		top: calc(1000px + 385px + 780px + 691px);
+	}
+	 .six{
+	top: calc(1000px + 385px + 780px + 691px + 799px);
+	}
+	.seven{
+	top: calc(1000px + 385px + 780px + 691px + 799px + 900px);
+	}
+	.eight{
+	top: calc(1000px + 385px + 780px + 691px + 799px + 900px + 400px);
+	}
+	.nine{
+		top: calc(1000px + 385px + 780px + 691px + 799px + 900px + 400px + 300px);
+	}
 }
 ------------------------------------------
 
