@@ -1304,7 +1304,7 @@ height: 27px;
 	}
 }
 
-@media (max-height: 1000px) and (min-width: 1280px){
+@media (max-height: 1000px) and (min-width: 1450px){
 	.second{top: 1000px;}
 	.third{
 		top: calc(1000px + 385px);
@@ -1326,6 +1326,31 @@ height: 27px;
 	}
 	.nine{
 		top: calc(1000px + 385px + 780px + 691px + 799px + 900px + 400px + 300px);
+	}
+}
+
+@media (max-height: 800px) and (min-width: 1280px){
+	.second{top: 800px;}
+	.third{
+		top: calc(800px + 385px);
+	}
+	.four{
+		top: calc(800px + 385px + 780px);
+	}
+	.five{
+		top: calc(800px + 385px + 780px + 691px);
+	}
+	 .six{
+	top: calc(800px + 385px + 780px + 691px + 799px);
+	}
+	.seven{
+	top: calc(800px + 385px + 780px + 691px + 799px + 900px);
+	}
+	.eight{
+	top: calc(800px + 385px + 780px + 691px + 799px + 900px + 400px);
+	}
+	.nine{
+		top: calc(800px + 385px + 780px + 691px + 799px + 900px + 400px + 300px);
 	}
 }
 ------------------------------------------
