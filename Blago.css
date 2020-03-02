@@ -1367,7 +1367,7 @@ height: 27px;
 	position: absolute;
 	display: block;
 	text-align: center;
-	left: 50%;
+	left: calc(45% + 30px);
 	margin-left: -17.5%;
 	top: 32%;
 	width: 35%;
@@ -1386,17 +1386,18 @@ height: 27px;
 }
 .donates {
 	position: absolute;
-	top: calc(35% + 100px);
-width: 600px;
-left: 50%;
-margin-left: -330px;
+	top: calc(35% + 15vw - 30px);
+width: 60%;
+left: calc(15%);
+white-space: nowrap;
 padding-top: 2%;
-font-size: 16px;
+font-size: 2vw;
+margin-left: 0px;
 }
 .donate {
 width: 252px;
 height: 62px;
- padding: 13px 38px;
+ padding: 1.75vw 4vw;
  background: #57DBAC;
  transition: 0.35s linear;
 }
@@ -1404,7 +1405,7 @@ height: 62px;
 a.donate:hover {
 width: 252px;
 height: 62px;
- padding: 15px 60px;
+ padding: 1.75vw 4vw;
  background: #FFFFFF	;
 }
 
@@ -1413,8 +1414,9 @@ height: 62px;
 	border-color: white;
 width: 252px;
 height: 62px;
- padding: 11px 36px;
+ padding: calc(1.75vw - 2px) calc(4vw - 2px);
  transition: 0.35s linear;
+ white-space: nowrap;
 }
 .learn:hover {
 	border: 2px solid #333;
@@ -1533,6 +1535,9 @@ body {
  	font-size: 1.79vw;
  	font-weight: normal;
  }
+  .asd{
+ 	width: 80%;
+ }
  .five {
     position: absolute;
     top: calc(100% + 300px + 740px + 590px);
@@ -1624,6 +1629,19 @@ input[type="text"] {
 	-webkit-appearance: button;
 
 }
+.insideup {
+    width: 80%;
+    height: 30%;
+    margin-left: 35px;
+    margin-top: 0%;
+    z-index: 3;
+}
+.insidedown {
+    width: 80%;
+    height: 30%;
+    margin-left: 35px;
+    margin-top: 6%;
+}
 .qwe{
 	width: calc(-50px + 50vw);
 }
@@ -1631,9 +1649,12 @@ input[type="text"] {
 	width: calc(-10px + 20vw);
 	margin-left: calc(30vw - 40px);
 }
+.qwe2{
+	width: 40vw;
+}
 .qwe3{
 	margin-top: 30px;
-	width: 45vw;
+	width: 38vw;
 }
 input[type="text"].tri{
 	width: calc(-50px + 50vw);
@@ -1656,7 +1677,7 @@ form.a{
 	color: #1A224D;
 	font-size: 2.5vw;
 	height: 50px;
-	width: 200px;
+	width: 30%;
 	margin-left: 35px;
 	top: calc(22vw + 110px);
 }
@@ -1675,13 +1696,7 @@ form.a{
 	color: white;
 	display: inline;
 }
-.insideup{
-	width: 88%;
-	height: 30%;
-	margin-left: 35px;
-	margin-top: 0%;
-	z-index: 3;
-}
+
 .qwe6{
 	background: #57DBAC;
 	font-size: 2vw;
@@ -1692,7 +1707,7 @@ form.a{
 	position: absolute;
 	left: calc(10px + 11vw);
 	height: 100px;	
-	width: 25vw;
+	width: 22vw;
 	top: calc(-0.5vw + 3px);
 	white-space: nowrap;
 }
