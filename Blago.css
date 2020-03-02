@@ -1356,7 +1356,7 @@ height: 27px;
 
 @media (max-width: 786px){
 .navbar-brand {
-	font-size: 24px;
+	font-size: 3vw;
 	margin-left: 10%
 }
 .first{
@@ -1466,7 +1466,7 @@ padding: 0px 0%;
 }
 
 img.cc {
-	height: 60px;
+	height: 8vw;
 }
 .third{
 	height: 423px;
@@ -1630,16 +1630,16 @@ input[type="text"] {
 
 }
 .insideup {
-    width: 80%;
+    width: 70%;
     height: 30%;
-    margin-left: 35px;
+    margin-left: 4vw;
     margin-top: 0%;
     z-index: 3;
 }
 .insidedown {
-    width: 80%;
+    width: 70%;
     height: 30%;
-    margin-left: 35px;
+    margin-left: 4vw;
     margin-top: 6%;
 }
 .qwe{
@@ -1678,7 +1678,7 @@ form.a{
 	font-size: 2.5vw;
 	height: 50px;
 	width: 30%;
-	margin-left: 35px;
+	margin-left: 4vw;
 	top: calc(22vw + 110px);
 }
 .qwe5{
@@ -1687,7 +1687,7 @@ form.a{
 	color: #1A224D;
 	height: 200px;
 	font-size: 2.75vw;
-	margin-left: 35px;
+	margin-left: 4vw;
 	top: calc(22vw + 160px);
 }
 .qwe6{
