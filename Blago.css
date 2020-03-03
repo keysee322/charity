@@ -856,7 +856,7 @@ overflow: hidden !important;
 	display:inline-block;
 
 	margin-top: 25px;
-	height: 200px;
+	height: 20vw;
 }
 
 .eight11{
@@ -1433,7 +1433,7 @@ height: 62px;
 	text-align: center;
 
     width: 100%; 
-    height: 385px;
+    height: 20vw;
     background: #FFF; 
     
     position: absolute; 
@@ -1448,6 +1448,7 @@ height: 62px;
 }
 
 .box div{
+	margin-top: 0px;
 	width:20%;
 	display:inline-block;
 	text-align: center;
@@ -1490,7 +1491,7 @@ h1{
 	height: 50vw;
 	width: 55vw;
 	display: inline-block;
-	margin-top: 60px;
+	margin-top: 3%;
 
 }
  #right-panel {
@@ -1499,7 +1500,7 @@ h1{
 	height: 50vw;
 	width: 40vw;
 	display: inline-block;
-	margin-top: 60px;
+	margin-top: 3%;
 	overflow: scroll;
 	background: #F7FAFE;
 	padding-left: 0px;
@@ -1680,7 +1681,7 @@ form.a{
 	height: 50px;
 	width: 30%;
 	margin-left: 4vw;
-	top: calc(22vw + 110px);
+	top: calc(40vw);
 }
 .qwe5{
 	position: absolute;
@@ -1689,7 +1690,7 @@ form.a{
 	height: 200px;
 	font-size: 2.75vw;
 	margin-left: 4vw; 
-	top: calc(22vw + 160px);
+	top: calc(56vw - 40px);
 }
 .qwe6{
 	background: #57DBAC;
@@ -1829,7 +1830,7 @@ form.a{
     margin-left: auto;
     margin-right: auto width: 10%;
     height: 300px;
-    background-color: #57DBAC;
+    background-color: rgba(0,0,0,0);
     padding: 15px 6%;
     font-size: 2.5vw;
 }
@@ -1848,7 +1849,7 @@ form.a{
     margin-left: auto;
     margin-right: auto width: 4%;
     height: 300px;
-    background-color: #57DBAC;
+    background-color: rgba(0,0,0,0);
     padding: 15px 6%;
     font-size: 2.5vw;
 }
@@ -1863,7 +1864,7 @@ form.a{
     margin-right: auto width: 10%;
     height: 300px;
     padding: 15px 6%;
-    background-color: #57DBAC;
+    background-color: rgba(0,0,0,0);
     position: absolute;
     top: 0%;
 }
@@ -1900,6 +1901,34 @@ font-weight: 500;
 font-size: 2.5vw;
 line-height: 25px;
 padding-top: 7px;
+}
+.third {
+    height: 62vw;
+    top: calc(100% + 30vw);
+}
+.four {
+    top: calc(100% + 30vw + 62vw);
+    height: 56vw;
+}
+.five {
+    position: absolute;
+    top: calc(100% + 30vw + 62vw + 56vw);
+    height: 62vw;
+}
+.six {
+    top: calc(100% + 30vw + 62vw + 56vw + 62vw);
+    height: 66vw;
+}
+.seven {
+    top: calc(100% + 30vw + 62vw + 56vw + 62vw + 66vw);
+    height: 24vw;
+}
+.eight {
+    top: calc(100% + 30vw + 62vw + 56vw + 62vw + 66vw + 4vw + 24vw);
+    height: 28vw;
+}
+.nine{
+	top: calc(100% + 30vw + 62vw + 56vw + 62vw + 66vw + 4vw + 24vw + 28vw);
 }
 }
 ------------------------------------------
