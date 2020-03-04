@@ -558,7 +558,7 @@ h1.firstHeading {
 form.a{
 
   float: left;
-  width: 500px;
+  width: 100px;
   height: 20%;
   padding: 0px;
   color: #7b7b7b; 
@@ -652,7 +652,7 @@ select {
 }
 .qwe3{
 
-	width: 486px;
+	width: 100px;
 	margin-top: 50px;
 }
 
@@ -1198,6 +1198,7 @@ height: 27px;
 		height: 100%;
 		margin-top: 0%;
 		border: 0px;
+		width: 50%
 	}
 	.left5{
 		margin-left: 10%;
@@ -1271,6 +1272,82 @@ height: 27px;
 }
 .navbar-right{
 	height: 0; overflow: hidden;
+}
+.qwe7{
+	margin-left: 25%;
+	height: 100px;	
+	margin-top: -5.5%;
+}
+
+input[type="text"] {
+	font-size: 15px;
+	font-family: "Noto Sans";
+  width: calc(20vw - 34px);
+  padding: 13px 15px;
+  border: 2px solid #57DBAC;
+  background: #fff;
+  color: #7b7b7b;
+  -webkit-appearance: none; /*убираем галочку в webkit-браузерах*/
+  -moz-appearance: none; /*убираем галочку в Mozilla Firefox*/
+  text-overflow: ellipsis;
+
+}
+option {
+	white-space: nowrap;
+	overflow: hidden;
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    text-overflow: ellipsis;
+}
+
+select {
+    font-size: 15px;
+    overflow: hidden !important;
+    font-family: "Noto Sans";
+    width: 20vw;
+    cursor: pointer;
+    padding: 0px 15px;
+    border: 2px solid #57DBAC;
+    background: #fff;
+    color: #7b7b7b;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.select-arrow {
+    position: absolute;
+    top: 0px;
+    left: calc(20vw - 29px);
+    width: 15px;
+    height: calc(20px);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 26px;
+    pointer-events: none;
+    border: 2px solid #57DBAC;
+    background-color: #F7FAFE;
+}
+
+.qwe1 {
+    width: 200px;
+    margin-left: calc(25vw - 30px);
+}
+.qwe7{
+	margin-left: 140px;
+	height: 100px;	
+	margin-top: -31px;
+}
+.oplata {
+    width: 40px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 }
@@ -1925,6 +2002,11 @@ padding-top: 7px;
 }
 .nine{
 	top: calc(100% + 30vw + 62vw + 56vw + 62vw + 66vw + 4vw + 24vw + 28vw);
+}
+.qwe7{
+	margin-left: 25%;
+	height: 100px;	
+	margin-top: -5.5%;
 }
 }
 ------------------------------------------
