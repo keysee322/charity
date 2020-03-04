@@ -114,16 +114,12 @@ a{
 	color: #ffffff;
 		text-decoration: none;	
 }
-a:visited {
-	color: white;
-}
 a:hover {
 	color: #1A224D;
 	text-decoration: none;	
 	outline: 0;
 }
 a:focus {
-	color: #fff;
 	text-decoration: none;	
 	outline: 0;
 }
@@ -605,13 +601,12 @@ option {
 }
 
 select {
-font-size: 15px;
-overflow: hidden !important;
+    font-size: 15px;
+    overflow: hidden !important;
     font-family: "Noto Sans";
-    width: 55%;
+    width: 234px;
     cursor: pointer;
-    padding: 13px 15px;
-    margin-top: 10px;
+    padding: 0px 15px;
     border: 2px solid #57DBAC;
     background: #fff;
     color: #7b7b7b;
@@ -619,22 +614,22 @@ overflow: hidden !important;
     -moz-appearance: none;
     text-overflow: ellipsis !important;
     white-space: nowrap;
-    height: 20px;
+    height: 50px;
+    margin-top: 0px;
 }
 
 .select-arrow {
-  position: absolute;
-  top: 10px;
-  right: 105px;
-  width: 15px;
-  height: calc(20px);
-  padding-left: 3px; 
-    padding-right: 3px; 
-  padding-bottom: 6px;
-  pointer-events: none; /*активизируем показ списка при нажатии на стрелку*/
-   border: 2px solid #57DBAC;
-   background-color: #F7FAFE;
-
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    width: 15px;
+    height: calc(20px);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 26px;
+    pointer-events: none;
+    border: 2px solid #57DBAC;
+    background-color: #F7FAFE;
 }
 
 
@@ -658,6 +653,7 @@ overflow: hidden !important;
 .qwe3{
 
 	width: 486px;
+	margin-top: 50px;
 }
 
 .price {
@@ -1649,17 +1645,17 @@ input[type="text"] {
 }
 .qwe1{
 	width: calc(-10px + 20vw);
-	margin-left: calc(30vw - 40px);
+	margin-left: calc(25vw - 7px);
 }
 .qwe2{
 	width: 40vw;
 }
 .qwe3{
-	margin-top: 30px;
+	margin-top: calc(3% + 10px);
 	width: 38vw;
 }
 input[type="text"].tri{
-	width: calc(-50px + 50vw);
+	width: calc(-17px + 45vw);
 }
 .personal{
 	width: calc(-50px + 50vw);
@@ -1681,7 +1677,7 @@ form.a{
 	height: 50px;
 	width: 30%;
 	margin-left: 4vw;
-	top: calc(40vw);
+	top: calc(42vw - 20px);
 }
 .qwe5{
 	position: absolute;
