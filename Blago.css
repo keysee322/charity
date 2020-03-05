@@ -580,7 +580,7 @@ label, span {
 input[type="text"] {
 	font-size: 15px;
 	font-family: "Noto Sans";
-  width: 100%;
+  width: 200px;
   padding: 13px 15px;
   border: 2px solid #57DBAC;
   background: #fff;
@@ -2035,11 +2035,17 @@ form.a{
 .oplata1 {
     font-size: 80%;
     float: left;
-    width: 19%;
+    width: 16%;
     text-align: center;
     display: inline-block;
     margin-right: 10px;
     white-space: nowrap;
+}
+.eight131{
+	width: 110%;
+}
+.oplata2{
+	width: 15%;
 }
 .nine{
 	position: absolute;
