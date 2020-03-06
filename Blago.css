@@ -3,7 +3,7 @@ html{
  width: 100%;
 }
 #right-panel::-webkit-scrollbar {
-    width: 1.7vw;
+    width: calc(8px + 0.2vw);
 }
  
 #right-panel::-webkit-scrollbar-track {
