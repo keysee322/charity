@@ -8,11 +8,11 @@ html{
  
 #right-panel::-webkit-scrollbar-track {
  background: #6E76A0;
-    border-radius: 10px;
+    border-radius: 30px;
 }
  
 #right-panel::-webkit-scrollbar-thumb {
-    border-radius: 10px;
+    border-radius: 30px;
     background: #1A224C;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9); 
 }	
@@ -2282,6 +2282,25 @@ element.style {
 
    
 }
+.buttons:hover{
+	background: #E3E7EC;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    padding-top: -20px;
+    padding-left: 8vw;
+    padding-right: 0vw;
+    margin-left: 0px;
+    font-family: "Noto Sans";
+    position: relative;
+    border: 0px;
+    outline: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70%;
+    color: #1A224C;
+    height: 18vw;
+}
 h1 {
     display: block;
     margin-block-start: 0.0em;
@@ -2336,22 +2355,17 @@ h1 {
     z-index: 3;
 }
 select {
-    font-size: 15px;
-    overflow: hidden !important;
-    font-family: "Noto Sans";
-    width: 40vw;
-    cursor: pointer;
+height: calc(8vw);
+    width: calc(-6px + 43vw);
     font-size: 2.5vw;
+    font-family: "Noto Sans";
     padding: 0px 1.5vw;
     border: 2px solid #57DBAC;
     background: #fff;
     color: #7b7b7b;
     -webkit-appearance: none;
     -moz-appearance: none;
-    text-overflow: ellipsis !important;
-    white-space: nowrap;
-    height: 8vw;
-    margin-top: 0px;
+    text-overflow: ellipsis;
 }
 input[type="text"] {
     height: calc(-4px + 8vw);
@@ -2392,17 +2406,22 @@ h2 {
 .select-arrow {
     position: absolute;
     top: 0px;
-    left: calc(-20px + 40vw);
-    width: 15px;
-    height: calc(-4px + 7vw);
-    padding-top: 1vw;
-    padding-left: 0.2vw;
-    padding-right: 0.2vw;
+    left: calc(-10px + 39vw);
+    width: 3vw;
+    height: calc(-4px + 6.7vw);
+    padding-top: 1.3vw;
+    padding-left: 0.6vw;
+    padding-right: 0.6vw;
     padding-bottom: 0px;
     pointer-events: none;
     border: 2px solid #57DBAC;
     background-color: #F7FAFE;
 }
+
+.arrow{
+	width: 3vw;
+}
+
 h2 {
     color: #1A224D;
     font-weight: bold;
