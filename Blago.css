@@ -2226,26 +2226,31 @@ h1 {
 }
 .four{
 	top: calc(109% + 30vw + 186vw);
-	height: 180vw;
+	height: calc(195vw);
+	background: #F7FAFE;
 }
 #map {
     position: absolute;
-    left: 0px;
+    left: 5%;
     height: 100vw;
-    width: 100%;
+    width: 90%;
     display: inline-block;
-    margin-top: 80vw;
+    margin-top: 90vw;
+}
+element.style {
+    position: absolute;
+    overflow: hidden;
 }
 #right-panel {
     text-align: left;
     position: absolute;
     height: 80vw;
-    width: 100%;
-    margin-top: 0%;
+    width: 90%;
+    margin-top: 5vw;
     overflow: scroll;
     background: #F7FAFE;
     padding-left: 10px;
-    left: 0px;
+    left: 5%;
     overflow-x: hidden;
 }
 .result {
@@ -2254,6 +2259,7 @@ h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 3.4vw;
+
 }
 .buttons {
     position: relative;
@@ -2290,7 +2296,7 @@ h1 {
 }
 .five {
     position: absolute;
-    top: calc(109% + 30vw + 186vw + 180vw);
+    top: calc(109% + 30vw + 186vw + 195vw);
     height: 186vw;
 }
 
@@ -2447,7 +2453,7 @@ input[type="text"].tri {
     width: 38vw;
 }
 .six {
-    top: calc(109% + 30vw + 186vw + 180vw + 186vw);
+    top: calc(109% + 30vw + 186vw + 195vw + 186vw);
     height: 180vw;
 }
 .team-text {
@@ -2466,7 +2472,7 @@ input[type="text"].tri {
     margin-left: 15%;
 }
 .seven {
-     top: calc(109% + 30vw + 186vw + 180vw + 180vw + 154vw);
+     top: calc(109% + 30vw + 186vw + 195vw + 180vw + 154vw);
     height: 40vw;
 }
 .seven1 {
@@ -2541,7 +2547,7 @@ input[type="text"].tri {
     left: calc(17% + 65px);
 }
 .eight {
-    top: calc(109% + 30vw + 186vw + 180vw + 180vw + 202vw);
+    top: calc(109% + 30vw + 186vw + 180vw + 195vw + 202vw);
     height: 58vw;
 }
 .eight11 {
@@ -2566,7 +2572,7 @@ input[type="text"].tri {
 .eight12 {
     position: absolute;
     top: 0%;
-    left: 40%;
+    left: 38%;
     display: inline;
     margin-left: auto;
     margin-right: auto width: 4%;
@@ -2593,7 +2599,7 @@ input[type="text"].tri {
 }
 .eight14 {
     font-size: 3.5vw;
-    left: 75%;
+    left: 72%;
     display: inline;
     float: left width: 100%;
     height: 300px;
@@ -2614,7 +2620,7 @@ input[type="text"].tri {
     white-space: nowrap;
 }
 .nine {
-    top: calc(109% + 30vw + 186vw + 180vw + 180vw + 202vw + 58vw);
+    top: calc(109% + 30vw + 186vw + 180vw + 195vw + 202vw + 58vw);
     height: 8vw;
     font-size: 3.5vw;
     padding-top: 4vw;
