@@ -2,19 +2,19 @@
 html{
  width: 100%;
 }
-::-webkit-scrollbar {
-    width: 12px;
+#right-panel::-webkit-scrollbar {
+    width: 1.7vw;
 }
  
-::-webkit-scrollbar-track {
- background-color: rgba(0,0,0,0);
-
+#right-panel::-webkit-scrollbar-track {
+ background: #6E76A0;
     border-radius: 10px;
 }
  
-::-webkit-scrollbar-thumb {
+#right-panel::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background: #1A224C;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9); 
 }	
 scroll-container{
 	      scroll-behavior: smooth;
