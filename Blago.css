@@ -454,10 +454,11 @@ padding-inline-start: 0px;
 	background: #FFF;
 }
 .insideup{
-	width: 88%;
-	height: 30%;
+	position: absolute;
+	top: 50px;
+	width: 550px;
+	height: 250px;
 	margin-left: 35px;
-	margin-top: 6%;
 	z-index: 3;
 }
 
@@ -672,50 +673,62 @@ select {
 }
 
 .insidedown{
-	width: 88%;
-	height: 30%;
+	position: absolute;
+	top: 280px;
+	width: 550px;
+	height: 250px;
 	margin-left: 35px;
-	margin-top: 6%;
 }
-
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 1.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 .personal{
 	border-bottom: 1px solid rgba(0, 0, 0, 0.22);
 }
 .qwe4{
+	position: absolute;
 	font-weight: normal;
 	color: #1A224D;
-
+	top: 100%;
 	height: 50px;
 	width: 200px;
-	margin-left: 35px;
 	margin-top: 35px;
 }
 .qwe5{
+	position: absolute;
 	font-weight: normal;
 	color: #1A224D;
+	top: 150%;
 	height: 200px;
-	margin-left: 35px;
-	margin-top: 35px;
+	width: 500px;
 }
 
 .qwe6{
+	position: absolute;
+	
 	background: #57DBAC;
 	font-size: 15px;
 	padding: 18px;
 	color: white;
+	width: 130px;
 	display: inline;
 }
 .oplata{
-	width: 10%;
+	width: 70px;
 	text-align: center;
 	display: inline-block;
 	margin-left: 20px;
 
 }
 .qwe7{
-	margin-left: 25%;
+	margin-left: 29%;
 	height: 100px;	
-	margin-top: -5.5%;
+	width: 400px;
 }
 
 .six{
@@ -851,7 +864,7 @@ select {
 
 	display:inline-block;
 
-	margin-top: 2vw;
+	margin-top: 0.5vw;
 	height: 9vw;
 }
 
@@ -1717,6 +1730,7 @@ h2{
 	color: #1A224D;
 	font-weight: bold;
 	font-size: 2.5vw;
+	margin-block-end: 0.83em;
 }
 select {
 font-size: 15px;
@@ -1785,17 +1799,17 @@ input[type="text"] {
 
 }
 .insideup {
-    width: 70%;
+    width: 40vw;
     height: 30%;
     margin-left: 4vw;
-    margin-top: 0%;
+    top: calc(2vw - 20px);
     z-index: 3;
 }
 .insidedown {
-    width: 70%;
+    width: 40vw;
     height: 30%;
     margin-left: 4vw;
-    margin-top: 6%;
+    top: 23vw;
 }
 .qwe{
 	width: calc(-50px + 50vw);
@@ -1808,7 +1822,7 @@ input[type="text"] {
 	width: 40vw;
 }
 .qwe3{
-	margin-top: calc(3% + 10px);
+	margin-top: calc(3vw + 10px);
 	width: 38vw;
 }
 input[type="text"].tri{
@@ -1832,9 +1846,8 @@ form.a{
 	color: #1A224D;
 	font-size: 2.5vw;
 	height: 50px;
-	width: 30%;
-	margin-left: 4vw;
-	top: calc(42vw - 20px);
+	width: 50%;
+	top: calc(22vw - 30px);
 }
 .qwe5{
 	position: absolute;
@@ -1842,14 +1855,15 @@ form.a{
 	color: #1A224D;
 	height: 200px;
 	font-size: 2.75vw;
-	margin-left: 4vw; 
-	top: calc(56vw - 40px);
+	top: calc(30vw - 00px);
+	width: 45vw;
 }
 .qwe6{
 	background: #57DBAC;
-	padding: 2vw;
+	padding: 1.5vw 0vw;
 	color: white;
 	display: inline;
+	width: 15vw;
 }
 
 .qwe6{
@@ -1860,14 +1874,14 @@ form.a{
 }
 .qwe7{
 	position: absolute;
-	left: calc(10px + 11vw);
+	left: calc(-60px + 11vw);
 	height: 100px;	
 	width: 22vw;
-	top: calc(-0.5vw + 3px);
+	top: calc(2.5vw);
 	white-space: nowrap;
 }
 .oplata {
-    width: calc(9vw - 10px);
+    width: calc(8vw - 10px);
     text-align: center;
     display: inline-block;
     margin-left: calc(1.5vw - 5px);
@@ -2089,7 +2103,7 @@ padding-top: calc(2.5vw - 12px);
 	top: calc(100% + 30vw + 62vw + 56vw + 62vw + 66vw + 4vw + 24vw + 28vw);
 }
 .qwe7{
-	margin-left: 25%;
+	margin-left: calc(40px + 15%);
 	height: 100px;	
 	margin-top: -5.5%;
 }
@@ -2354,6 +2368,12 @@ h1 {
     margin-top: 0%;
     z-index: 3;
 }
+.insidedown {
+    width: 40vw;
+    height: 30%;
+    margin-left: 4vw;
+    top: 33vw;
+}
 select {
 height: calc(8vw);
     width: calc(-6px + 43vw);
@@ -2433,9 +2453,8 @@ h2 {
     color: #1A224D;
     font-size: 3.5vw;
     height: 50px;
-    width: 30%;
-    margin-left: 4vw;
-    top: calc(72vw - 20px);
+    width: 90%;
+    top: calc(35vw - 20px);
 }
 .qwe5 {
     position: absolute;
@@ -2443,8 +2462,8 @@ h2 {
     color: #1A224D;
     height: 200px;
     font-size: 2.75vw;
-    margin-left: 4vw;
-    top: calc(80vw - 10px);
+    top: calc(50vw - 10px);
+
 }
 .qwe6 {
     background: #57DBAC;
@@ -2452,14 +2471,15 @@ h2 {
     padding: 3vw 6vw;
     color: white;
     display: inline;
+    width: 30vw;
 }
 .qwe7 {
-    margin-left: 65%;
+    margin-left: calc(45% + 70px);
     height: 100px;
     margin-top: -5.5%;
 }
 .oplata {
-    width: calc(8vw - 0px);
+    width: calc(12vw - 0px);
     text-align: center;
     display: inline-block;
     margin-left: calc(1.5vw - 2px);
@@ -2468,7 +2488,7 @@ input[type="text"].tri {
     width: calc(-10px + 40vw);
 }
 .qwe3 {
-    margin-top: calc(10%);
+    margin-top: calc(10vw);
     width: 38vw;
 }
 .six {
