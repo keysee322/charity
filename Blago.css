@@ -5,27 +5,7 @@ html{
 #right-panel::-webkit-scrollbar {
     width: calc(8px + 0.2vw);
 }
- #animate{
- 	z-index: 3;
- 	color: #7b7b7b;
- 	font-size: 15px;
- 	width: calc(80px);
- 	background-color: white;
- 	font-weight: 400;
- 	padding-left: 5px;
- 	pointer-events: none;
- 	transition: font-size 0.5s, width 0,5s;
- 	animation-fill-mode: forwards;
- }
- #container{
- 	pointer-events: none;
- 	width: 30px;
- 	height: 30px;
- 	position: absolute;
- 	top: calc(15px);
- 	left: 12px;
- 	border-color: white;
- }
+ 
 #right-panel::-webkit-scrollbar-track {
  background: #6E76A0;
     border-radius: 30px;
