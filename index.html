@@ -234,6 +234,9 @@ for (let anchor of anchors) {
 }
       }
 
+
+
+
     </script>
 <style>
 
@@ -344,11 +347,7 @@ for (let anchor of anchors) {
     <button data-objectId="7" class="items"><h1 id="firstHeading" class="firstHeading">Lajava Beach Lounge</h1>
       <p class="kek">26/2, Ban Thongkrut moo 5, Koh Samui, Surat Thani 84140, Таиланд</p></button>
 </div>-->
-   <script>
 
-
-   
-  </script>
 </div>
  </div>
 
@@ -356,8 +355,9 @@ for (let anchor of anchors) {
 <div class="five"> 
   <div class="fake1">
     <section id="3">
-    <div class="left5">
-
+    <div class="left5" >
+      <button onclick="myMoveback()"> lol </button>
+      <div id="animation">KEK</div>
       <h1 class="asd">Welcome To Make An Positive Impact</h1>
       <p class="asd-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       
@@ -368,6 +368,7 @@ for (let anchor of anchors) {
     <div class="right5"> 
       <form action="mail.php" method="POST"> 
       <div class="insideup"> 
+        
         <h2>Give your palm a name</h2>
         <div class="form-wrap">
     <div class="qwe">
@@ -397,13 +398,55 @@ for (let anchor of anchors) {
 
 
     <div class="qwe2">
-      <input type="text" name="name" required placeholder="First name">
+      <input type="text" onclick="myMove()" name="name"  required>
       </input> 
+
+      <div id="container">
+  <div id ="animate">First name</div>
+</div>
+      <script>
+  pos = 0;
+function myMove() {
+
+  var elem = document.getElementById("animate");   
+  var id = setInterval(frame, 3);
+  function frame() {
+    if (pos == 24) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = -pos + "px";
+      elem.style.fontSize ='12px';
+      elem.style.width = '65px';
+    }
+  }
+}
+
+
+  pos = 0;
+function myMoveback() {
+  
+  var elem = document.getElementById("animate");   
+  var id = setInterval(frame, 3);
+  function frame() {
+    if (pos == 24) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + "px";
+      elem.style.fontSize ='12px';
+      elem.style.width = '65px';
+    }
+  }
+}
+
+
+</script>
     </div> 
 
     <div class="qwe1">
       <label for="name"></label>
-      <input type="text" name="name1" required placeholder="Last name">
+      <input type="text" onclick="myMove()" name="name1" required placeholder="Last name">
     </div> <p> </p>
 
     <div class="qwe3">
